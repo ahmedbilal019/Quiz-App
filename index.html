@@ -1,16 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz App</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="main-container" id="main-container">
-        <h1>Welcome to Quiz App</h1>
-        <p>This quiz contains 10-Questions. Each question contains equal marks. To start a quiz click the "start button". </p>
-        <button id="quiz-start">Start Quiz</button>
+        <div class="welcome-container" id="welcome-container">
+            <h1>Welcome to Quiz App</h1>
+            <p>This quiz contains 10-Questions. Each question contains equal marks. To start a quiz click the "start
+                button". </p>
+            <button id="quiz-start">Start Quiz</button>
+        </div>
+
+        <div id="quiz-container">
+            <div id="question">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nesciunt cum nam.</div>
+            <div id="answers">Lorem, ipsum dolor.</div>
+            <button id="next-btn">Next</button>
+            <div id="score">Scores:</div>
+        </div>
     </div>
 </body>
+<script src="app.js"></script>
 </html>

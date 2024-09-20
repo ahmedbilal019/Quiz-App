@@ -133,6 +133,13 @@ p {
         font-weight:normal;
         font-size:19px ;
     }
+     #quiz-container {
+       
+        font-family:sans-serif;
+    }
+    #quiz-container #answers button{
+        font-family: sans-serif;
+    }
     .controls #next-btn {
        margin-top: 5px;
     }
